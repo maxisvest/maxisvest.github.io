@@ -6,7 +6,21 @@
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
     <link href="image/icon.png" rel="shortcut icon">
     <title>Maxisvest</title>
+<script>
 
+
+        window.onload = function(){
+         
+            var current = 0;
+         
+            document.getElementById('target').onclick = function(){
+             
+                current = (current+90)%360;
+             
+                this.style.transform = 'rotate('+current+'deg)';
+            }
+        };
+</script>
   </head>
 
   <body>
@@ -22,15 +36,15 @@
    </div>
 
    <div class="planetPic">
-      <img src="image/planet_earth.png" width="600">
+      <img id ="target" src="image/planet_earth.png" width="600" onclick="test() alt="" ">
    </div>
 
 
 
-
-
    <div class="betaLoc">
-       <p class="betaColor">beta 0.21</p>
+       <p class="planetPicColor">Beta 0.21c<br/>
+       Only support Chrome<br/>
+       </p>
    </div>
 
   </body>
