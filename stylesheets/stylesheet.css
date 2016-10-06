@@ -1,8 +1,5 @@
 
 
-@import url(github-light.css);
-
-
 body {
   box-sizing: border-box;
   color:#373737;
@@ -34,3 +31,11 @@ h2{
       color:gray;
       font-size:18px;
      }
+.easter_egg{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 20px;
+  height: 10px;
+  background-color: #red;
+}
