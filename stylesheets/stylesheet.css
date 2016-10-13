@@ -8,29 +8,35 @@ body {
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-.betaLoc{
-        position:fixed;
-        bottom: 0px;
-        right: 20px;
-      }
+
+.foot{
+        width: 100%;
+        bottom: 0;
+        text-align: center;
+        margin: 0 auto 0 auto;
+}
+
 h1{
   font-weight: 20px;
   color:white;
 }
+
 h2{
   font-weight: 15px;
   color: white;
 }
+
 .planetPic{
-  zoom: 0.7;
+  zoom: 0.3;
   width: 600px;
   margin: 0 auto;
 }
+
 .planetPicColor{
       text-align: center;
       color:gray;
-      font-size:18px;
      }
+
 .easter_egg{
   position: fixed;
   left: 0px;
@@ -38,4 +44,19 @@ h2{
   width: 20px;
   height: 10px;
   background-color: #red;
+}
+
+.center{
+  width: 40%;
+  margin: 0 auto 0 auto;
+}
+
+.center td{
+  text-align: center;
+}
+
+.wechat_code{
+  zoom: 0.6;
+  width: 600px;
+  margin: 80px auto;
 }
