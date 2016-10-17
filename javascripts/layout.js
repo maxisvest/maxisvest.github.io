@@ -9,3 +9,8 @@ window.onload = function(){
 function easter_egg(){
         alert("You found it!!!");
     }
+
+$(document).ready(function(){
+    $("#planetPic").animate({top:'-=100px',
+    opacity:'1'},1500);
+});	

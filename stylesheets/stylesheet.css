@@ -27,9 +27,12 @@ h2{
 }
 
 .planetPic{
+  position: relative;
   zoom: 0.3;
   width: 600px;
-  margin: 0 auto;
+  margin:0px auto;
+  top:100px;
+  opacity: 0;
 }
 
 .planetPicColor{
