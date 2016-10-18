@@ -31,13 +31,14 @@ h2{
   zoom: 0.3;
   width: 600px;
   margin:0px auto;
-  top:100px;
+  top:50px;
   opacity: 0;
 }
 
 .planetPicColor{
       text-align: center;
       color:gray;
+      opacity: 0;
      }
 
 .easter_egg{
@@ -56,10 +57,45 @@ h2{
 
 .center td{
   text-align: center;
+  opacity: 0;
 }
 
 .wechat_code{
   zoom: 0.6;
   width: 600px;
   margin: 80px auto;
+}
+
+.foot_hr{
+  width: 0%;
+}
+
+.index_title{
+  text-align: center;
+  height: 180px;
+}
+
+.index_title h1{
+  position: relative;
+  top: -200px;
+  margin:0px auto;
+  width: 600px;
+  opacity: 0;
+}
+.index_title h2{
+  position: relative;
+  top: -200px;
+  margin:0px auto;
+  width: 600px;
+  opacity: 0;
+}
+
+.index_title p{
+  text-align:center; 
+  font-size:20px; 
+  font-color:blue;
+  position: relative;
+  top: 70px;
+  margin:0px auto;
+  width: 600px;
 }
